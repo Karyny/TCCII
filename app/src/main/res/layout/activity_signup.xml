@@ -16,7 +16,7 @@
 
         android:layout_marginBottom="530dp"
         android:gravity="center"
-        android:text="Sign UP"
+        android:text="Nova conta"
         android:textColor="#FFFFFF"
         android:textSize="25pt"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -30,7 +30,7 @@
         android:layout_marginTop="201dp"
         android:layout_marginBottom="462dp"
         android:ems="10"
-        android:hint="Name"
+        android:hint="Nome"
         android:inputType="textPersonName"
         android:textColor="#FFFF"
         android:textSize="15pt"
@@ -59,7 +59,7 @@
         android:layout_marginTop="319dp"
         android:layout_marginBottom="344dp"
         android:ems="10"
-        android:hint="Password"
+        android:hint="Senha"
         android:inputType="textPassword"
         android:textSize="15pt"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -68,87 +68,15 @@
 
     <Button
         android:id="@+id/Register"
-        android:layout_width="182dp"
+        android:layout_width="241dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginStart="114dp"
-        android:layout_marginLeft="114dp"
-        android:layout_marginTop="394dp"
-        android:layout_marginEnd="115dp"
-        android:layout_marginRight="115dp"
-        android:layout_marginBottom="289dp"
         android:background="#EA8B79"
-        android:text="Register"
+        android:text="Registrar"
         android:textColor="#FFFFFF"
         android:textSize="15pt"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="453dp"
-        android:layout_marginBottom="231dp"
-        android:gravity="center"
-        android:text="or"
-        android:textColor="#FFFF"
-        android:textSize="15pt"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="16dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="149dp"
-        android:layout_height="80dp"
-
-        android:layout_marginStart="278dp"
-        android:layout_marginLeft="278dp"
-        android:layout_marginTop="536dp"
-        android:layout_marginBottom="115dp"
-        android:background="#5691DC"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/facebook" />
-
-    <ImageButton
-        android:id="@+id/imageButton13"
-        android:layout_width="147dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="536dp"
-        android:layout_marginEnd="264dp"
-        android:layout_marginRight="264dp"
-        android:layout_marginBottom="115dp"
-        android:background="#5691DC"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/twitter" />
-
-    <ImageButton
-        android:id="@+id/imageButton17"
-        android:layout_width="111dp"
-        android:layout_height="78dp"
-        android:layout_marginStart="148dp"
-        android:layout_marginLeft="148dp"
-        android:layout_marginTop="536dp"
-        android:layout_marginEnd="114dp"
-        android:layout_marginRight="114dp"
-        android:layout_marginBottom="117dp"
-        android:background="#5691DC"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/funcionaaaaaa" />
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="486dp" />
 
     <TextView
         android:id="@+id/textView14"

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5691DC"
+    tools:context=".Include_Medicines">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:text="           Dr Smart "
+
+        android:textSize="25pt" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/pills"
+
+        />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Consultar sintomas"
+        android:textSize="20pt"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+
+    <Button
+        android:id="@+id/btSign"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+
+        android:background="#EA8B79"
+        android:text="Confirmar"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+
+</android.support.constraint.ConstraintLayout>
